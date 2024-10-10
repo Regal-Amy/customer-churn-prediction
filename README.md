@@ -1,2 +1,3 @@
 # customer-churn-prediction
-This project focuses on predicting customer churn for PowerCO. The primary objective is to analyze customer data and identify key factors contributing to customer attrition. By leveraging Random Forest Classifier, I built a predictive model that assists the company in retaining customers and minimizing churn rates.
+
+This project aims to predict customer churn for PowerCo using machine learning techniques. By analyzing customer data such as energy consumption, contract details, and pricing, I built a model using Random Forest Classifier to identify customers at risk of leaving, enabling proactive retention strategies.
