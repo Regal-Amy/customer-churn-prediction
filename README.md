@@ -1,56 +1,80 @@
 # customer-churn-prediction
 
-Objective
+# Customer Churn Analysis for PowerCo
 
-The objective of this project is to predict customer churn for PowerCo, a utility company, by analyzing customer data and identifying key factors contributing to churn. The predictive model helps PowerCo make informed decisions to improve customer retention.
+## Overview
+This project analyzes customer churn at PowerCo, a utility provider facing significant challenges due to increased competition in the energy market. The analysis aims to identify the factors contributing to customer churn and suggest actionable strategies for retention.
 
-Dataset
+## Objective
+The primary objective of this project is to determine the underlying reasons for customer churn at PowerCo, with a particular focus on price sensitivity and other potential causes.
 
-The dataset used for this project is the PowerCo customer churn dataset, which contains customer demographic information, service usage, and contract details. (If the dataset is publicly available, include the link here.)
+## Dataset
+The dataset used for this analysis is sourced from PowerCo's customer records, including attributes such as customer demographics, service usage, pricing, and churn status.
 
-Tools and Libraries
+## Tools and Libraries
+- Python
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
 
-Programming Language: Python
-Libraries:
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
-Streamlit (for app deployment)
 
-Project Structure
+## Process
+1. **Data Cleaning**: The dataset was cleaned to remove missing values and irrelevant features.
+2. **Exploratory Data Analysis (EDA)**: Visualizations were created to understand trends and correlations among variables.
+3. **Model Building and Evaluation**: Various models were tested using Random Forest Classifier to predict churn, focusing on feature importance related to price sensitivity and customer satisfaction.
 
-Data: Contains the dataset used for training and evaluation.
-Notebooks: Jupyter notebooks with the analysis and model development process.
-Model: Stores the final model files.
-App: Streamlit app files for showcasing the model.
-README.md: Overview of the project.
+## Results and Insights
+The analysis revealed that price sensitivity is a major factor driving customer churn, especially among small businesses. Other contributing factors include:
+- Customer service quality
+- Contract flexibility
 
-Process
+### Recommendations
+To address the identified issues, the following strategies are proposed:
+- Implement personalized pricing for sensitive segments.
+- Enhance customer service quality.
+- Offer more flexible contract options.
+- Launch targeted retention campaigns and loyalty programs.
 
-Data Cleaning: Handled missing values, outliers, and performed feature engineering on the dataset.
-Exploratory Data Analysis (EDA): Analyzed key features and visualized correlations between customer attributes and churn.
-Model Building: Built Random Forest Classifier  model and evaluated their performance.
-Evaluation: Assessed models using accuracy, precision, recall, and AUC-ROC scores to select the best-performing model.
-Deployment: Deployed the best model using Streamlit for real-time predictions.
-Results and Visualizations
-Key Findings: Customers with shorter contracts and higher usage tend to churn more frequently.
-Best Model: The Random Forest classifier model achieved accuracy score of 90%.
-Visualizations: Included visualizations such as churn rate by contract type, feature importance plot, and ROC curve for model performance.
+## Future Work
+Future work could involve deeper analysis into customer segments, enhancing predictive models with additional features, and implementing A/B testing for retention strategies.
 
-Future Work
+## Instructions
+To reproduce this analysis:
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Ensure you have the necessary libraries installed.
+4. Open the Jupyter Notebook and run the cells in order.
+## Process
+1. **Data Cleaning**: The dataset was cleaned to remove missing values and irrelevant features.
+2. **Exploratory Data Analysis (EDA)**: Visualizations were created to understand trends and correlations among variables.
+3. **Model Building and Evaluation**: Various models were tested to predict churn, focusing on feature importance related to price sensitivity and customer satisfaction.
 
-Model Improvement: Explore additional features and hyperparameter tuning to further improve model accuracy.
-Additional Algorithms: Test deep learning models such as neural networks to compare performance.
-Feature Expansion: Use more customer behavior data to improve prediction quality.
-Instructions
-Clone the repository: git clone <repository-link>
-Install required libraries: pip install -r requirements.txt
-Run the Jupyter notebook for analysis: jupyter notebook
-Run the Streamlit app for live prediction: streamlit run app.py
+## Results and Insights
+The analysis revealed that price sensitivity is a major factor driving customer churn, especially among small businesses. Other contributing factors include:
+- Customer service quality
+- Contract flexibility
 
-Strategy Advice for PowerCo:
+### Recommendations
+To address the identified issues, the following strategies are proposed:
+- Implement personalized pricing for sensitive segments.
+- Enhance customer service quality.
+- Offer more flexible contract options.
+- Launch targeted retention campaigns and loyalty programs.
 
-Focus on customers with short-term contracts and high usage for targeted retention strategies.
-Implement personalized offers and loyalty programs to reduce churn in high-risk customer segments.
+## Future Work
+Future work could involve deeper analysis into customer segments, enhancing predictive models with additional features, and implementing A/B testing for retention strategies.
+
+## Instructions
+To reproduce this analysis:
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Ensure you have the necessary libraries installed.
+4. Open the Jupyter Notebook and run the cells in order.
+
+## License
+This project is licensed under the Apache License 2.0. You can view the full license [here](https://www.apache.org/licenses/LICENSE-2.0).
+
+
+
+
